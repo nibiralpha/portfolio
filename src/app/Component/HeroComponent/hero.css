@@ -7,6 +7,7 @@
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+  max-width: 100%;
 }
 
 .background_text {
@@ -42,8 +43,7 @@
   margin-left: auto;
 }
 
-@media screen and (min-width: 320px) and (max-width: 414px) {
-/* @media screen and (max-width: 390px) { */
+@media screen and (min-width: 320px) and (max-width: 375px) {
   .center_content {
     position: initial;
     transform: translateY(0%);
@@ -62,8 +62,7 @@
   }
 
   .texts {
-    margin: 36% 0 0 0;
-    /* display: inline; */
+    margin: 33% 0 0 0;
     flex-direction: column;
     align-items: center;
     justify-content: center;
@@ -75,7 +74,7 @@
     width: 50%;
   }
 
-  .right_side{
+  .right_side {
     margin-top: 20px;
   }
 
@@ -89,22 +88,79 @@
   }
 }
 
-/* @media screen and (min-width: 412px) {
-    .texts{
-        margin: 45% 0 0;
-    }
 
-    .center_content{
-        margin-top: 60%;
+@media screen and (min-width: 360px) {
+    /* .center_content{
+        top:  52%
+    } */
+    
+    .slider{
+        top: 33%;
+    }    
+
+    .texts{
+        margin-top: 28%;
     }
 }
 
-@media screen and (min-width: 414px) {
-    .texts{
-        margin: 45% 0 0;
-    }
+/* @media screen and (min-width: 375px) and (max-width: 414px) { */
+@media screen and (min-width: 375px) {
+  .slider {
+    width: 215px;
+    transform: translate(-50%, -35%);
+    top: 36%;
+  }
 
+  .center_content{
+    top: 63%;
+  }
+
+  .background_text{
+    font-size: 90px;
+  }
+
+  .texts{
+    flex-direction: column;
+    /* margin-top: 20%; */
+    margin: 66px 80px 60px 80px;
+  }
+
+  .left_side, .right_side{
+    text-align: center;
+    width: 100%;
+  }
+
+  .left_text, .right_text{
+    margin-top: 20px;
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 390px) {
     .center_content{
-        margin-top: 60%;
+        top:  52%
     }
-} */
+    
+    .slider{
+        top: 32%;
+    }    
+}
+
+@media screen and (min-width: 412px) {
+    
+    .slider{
+        top: 33%;
+    }    
+}
+
+@media screen and (min-width: 414px) {
+    .center_content{
+        top:  52%
+    }
+    
+    .slider{
+        top: 32%;
+    }    
+}
+
+
