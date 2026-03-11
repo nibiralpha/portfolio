@@ -44,48 +44,10 @@
 }
 
 @media screen and (max-width: 360px) {
-  .center_content {
-    position: initial;
-    transform: translateY(0%);
-    width: 100%;
-    margin-top: 40%;
-  }
-
   .slider {
-    width: 215px;
     top: 32%;
-    transform: translate(-50%, -35%);
   }
 
-  .background_text {
-    font-size: 77px;
-  }
-
-  .texts {
-    margin: 28% 0 0 0;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-  }
-
-  .left_side,
-  .right_side {
-    text-align: center;
-    width: 50%;
-  }
-
-  .right_side {
-    margin-top: 20px;
-  }
-
-  .left_text,
-  .right_text {
-    width: auto;
-  }
-
-  .hero_section {
-    overflow-x: hidden;
-  }
 }
 
 @media screen and (max-width: 430px) {
