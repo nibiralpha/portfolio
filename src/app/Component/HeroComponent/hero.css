@@ -11,6 +11,7 @@
 }
 
 .background_text {
+  text-align: center;
   white-space: nowrap;
   overflow: hidden;
   font-size: 180px;
@@ -43,11 +44,12 @@
   margin-left: auto;
 }
 
+/* MOBILE */
+
 @media screen and (max-width: 360px) {
   .slider {
     top: 32%;
   }
-
 }
 
 @media screen and (max-width: 767px) {
@@ -96,12 +98,14 @@
 }
 
 /* TAB */
-/* @media screen and (max-width: 1024px) {
-    .slider{
-        width: 320px;
-    }
 
-    .left_text, .right_text{
-        width: 50%;
-    }
-} */
+@media (min-width: 768px) and (max-width: 1024px) {
+  .slider {
+    width: 320px;
+  }
+
+  .left_text,
+  .right_text {
+    width: 50%;
+  }
+}
