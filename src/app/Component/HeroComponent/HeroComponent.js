@@ -4,8 +4,9 @@ import "./hero.css";
 export default function HeroComponent() {
   return (
     <div className="hero_section">
-      <ImageSlider></ImageSlider>
+     
       <div className="center_content">
+         <ImageSlider></ImageSlider>
         <div className="background_text">
           <h6>
             NORA <i>AGENCY</i>
