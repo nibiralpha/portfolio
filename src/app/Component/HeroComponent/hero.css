@@ -1,5 +1,7 @@
 .hero_section {
-  height: 150%;
+  height: 100vh;
+  position: relative;
+
 }
 
 .center_content {
@@ -40,7 +42,7 @@
 
 .right_text {
   opacity: 0.7;
-  width: 40%;
+  width: 42%;
   margin-left: auto;
 }
 
