@@ -89,6 +89,8 @@
   width: 60%;
 }
 
+/* MOBLE */
+
 @media screen and (max-width: 360px) {
   .about_section {
     margin: 0 20px;
@@ -119,7 +121,7 @@
 }
 
 @media screen and (max-width: 767px) {
-   .about_section {
+  .about_section {
     margin: 0 20px;
   }
 
@@ -146,7 +148,31 @@
     width: 85%;
   }
 
-  .about_images{
+  .about_images {
     top: 25%;
+  }
+}
+
+/* TAB */
+
+@media (min-width: 599px) and (max-width: 767px) {
+  .scroll_container {
+    margin-bottom: 30%;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .scroll_container {
+    margin-top: 0%;
+    margin-bottom: 35%;
+  }
+
+  .about_detail {
+    font-size: 40px;
+    line-height: 50px;
+  }
+
+  .about_images {
+    top: 100px;
   }
 }
