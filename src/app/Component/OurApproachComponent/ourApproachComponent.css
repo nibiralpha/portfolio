@@ -21,3 +21,19 @@
     margin-bottom: 20%;
   }
 }
+
+/* TAB */
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .approach_title {
+    font-size: 40px;
+  }
+
+  .index {
+    margin: 0 8px;
+  }
+
+  .middle_content{
+    margin-left: 15px;
+  }
+}
