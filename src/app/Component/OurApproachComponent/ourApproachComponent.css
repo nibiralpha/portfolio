@@ -1,13 +1,23 @@
-.approach{
-    margin: 0 25px 100px 25px;
+.approach {
+  margin: 175px 25px 100px 25px;
 }
 
-.section_head{
-    color: rgb(168, 168, 168);
-    margin-bottom: 8%;
+.section_head {
+  color: rgb(168, 168, 168);
+  margin-bottom: 8%;
 }
 
+.hr {
+  margin-top: 35px;
+}
 
-.hr{
-    margin-top: 35px;
+/* MOBILE */
+@media screen and (max-width: 540px) {
+  .section_head {
+    text-align: center;
+  }
+
+  .section_head {
+    margin-bottom: 20%;
+  }
 }
