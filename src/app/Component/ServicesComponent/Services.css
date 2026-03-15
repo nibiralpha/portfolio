@@ -78,7 +78,7 @@
 
 /* MOBLE */
 
-@media screen and (max-width: 430px) {
+@media screen and (max-width: 540px) {
   .services .title {
     font-size: 30px;
     text-align: center;
@@ -86,16 +86,36 @@
     margin-bottom: 20px;
   }
 
-  .sub_title{
+  .sub_title {
     text-align: center;
   }
 
-  .heading{
+  .heading {
     margin-bottom: 25%;
   }
 
-  .boxes .col-4{
+  .boxes .col-4 {
     width: 100%;
     margin-bottom: 20px;
   }
+}
+
+/* TAB */
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .services .title {
+    font-size: 50px;
+  }
+
+  .col-4 {
+    padding-right: 0;
+  }
+
+  .detail{
+    width: 80%;
+  }
+
+  /* .boxes .col-4:last-child {
+    padding-right: 15px;
+  } */
 }
