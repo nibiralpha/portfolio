@@ -21,7 +21,7 @@
 }
 
 .project_menus {
-  margin: 0 80px;
+  margin: 0px 60px;
 }
 
 .menu_text {
@@ -36,7 +36,6 @@
 .project {
   height: 100%;
 }
-
 
 .project_gallery {
   width: 70%;
@@ -54,3 +53,32 @@
   display: block;
 }
 
+/* MOBILE */
+@media screen and (max-width: 430px) {
+  .project_section {
+    flex-direction: column;
+    padding: 0 10px;
+  }
+
+  .project_menu {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 20px;
+    margin-right: 0;
+    padding: 35px 0;
+  }
+
+  .menu_text {
+    font-size: 17px;
+    line-height: 10px;
+    padding: 5px 0;
+  }
+
+  .menu_text:last-child {
+    margin-bottom: 0;
+  }
+
+  .project_gallery{
+    width: 100%;
+  }
+}
