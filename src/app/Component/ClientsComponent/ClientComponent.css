@@ -1,0 +1,75 @@
+.clients {
+  padding: 0 25px;
+  padding-bottom: 100px;
+}
+
+.heading {
+  margin-bottom: 16%;
+}
+
+.clients .title {
+  font-size: 60px;
+}
+
+.hr {
+  background-color: #696969;
+  margin-bottom: 20px;
+  height: 2px;
+  border-width: 0px;
+}
+
+.sub_title {
+  color: #a8a8a8;
+}
+
+.client_box {
+  background-color: rgba(100, 100, 100, 0.1);
+  border: 1px solid #262626;
+  padding: 20px 25px;
+}
+
+.box_header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 50px;
+}
+
+.client_img {
+  position: relative;
+  margin-right: 20px;
+}
+
+.client_main_img {
+  border-radius: 50px;
+  width: 65px;
+}
+
+.client_hover_img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 70%;
+  /* height: 100%; */
+  object-fit: cover;
+}
+
+.client_title {
+  font-size: 25px;
+}
+
+.client_position {
+  font-size: 10px;
+}
+
+.client_description {
+  text-transform: uppercase;
+}
+
+.bg_img {
+  /* backdrop-filter: blur(30px); */
+  /* background: url("/images/clients_bg.webp") 0 127px no-repeat; */
+  background: url("/images/clients_bg.webp") no-repeat 0 145px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
