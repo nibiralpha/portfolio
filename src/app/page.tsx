@@ -4,6 +4,8 @@ import ServicesComponent from "./Component/ServicesComponent/ServicesComponent";
 import OurApproachComponent from "./Component/OurApproachComponent/OurApproachComponent";
 import ProjectComponent from "./Component/ProjectsComponent/ProjectComponent";
 import ClientComponent from "./Component/ClientsComponent/ClientComponent";
+import FooterComponent from "./Component/FooterComponent/FooterComponent";
+
 export default function Home() {
   return (
     <div className="">
@@ -13,6 +15,7 @@ export default function Home() {
       <OurApproachComponent />
       <ProjectComponent />
       <ClientComponent />
+      <FooterComponent />
     </div>
   );
 }
