@@ -89,9 +89,18 @@
   background-color: rgba(245, 245, 245, 0.5);
 }
 
+/* MOBILE */
 @media screen and (max-width: 540px) {
   .clients {
     margin-top: 50%;
+  }
+
+  .client_title{
+    font-size: 20px;
+  }
+
+  .client_img{
+    margin-bottom: 20px;
   }
 
   .col-4 {
@@ -104,5 +113,16 @@
     margin-bottom: 20px;
     font-size: 30px;
     line-height: 35px;
+  }
+
+  .box_header {
+    align-items: flex-start;
+    margin-bottom: 18px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .client_main_img{
+    width: 45px;
   }
 }
