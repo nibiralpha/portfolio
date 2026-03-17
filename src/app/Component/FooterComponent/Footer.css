@@ -89,3 +89,12 @@
     text-align: center;
   }
 }
+
+/* TAB */
+
+
+@media screen and (max-width: 767px) {
+    .footer_menu_container{
+        text-align: right;
+    }
+}
