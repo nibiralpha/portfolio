@@ -23,9 +23,11 @@
 }
 
 .client_box {
-  background-color: rgba(100, 100, 100, 0.1);
+  /* background-color: rgba(100, 100, 100, 0.1); */
+  background-color: rgb(0 0 0 / 50%);
   border: 1px solid #262626;
   padding: 20px 25px;
+  height: 300px;
 }
 
 .box_header {
@@ -37,6 +39,9 @@
 .client_img {
   position: relative;
   margin-right: 20px;
+  background-image: 0 0 10px 1px #f5f5f580;
+  box-shadow: 0 0 10px 1px #f5f5f580;
+  border-radius: 50%;
 }
 
 .client_main_img {
@@ -60,10 +65,12 @@
 
 .client_position {
   font-size: 10px;
+  color: #bcbcbc;
 }
 
 .client_description {
   text-transform: uppercase;
+  color: #8f8f8f;
 }
 
 .bg_img {
@@ -72,4 +79,30 @@
   background: url("/images/clients_bg.webp") no-repeat 0 145px;
   background-repeat: no-repeat;
   background-size: cover;
+  background-size: 100% auto;
+}
+
+.head_bar {
+  width: 100%;
+  height: 3px;
+  margin-bottom: 10px;
+  background-color: rgba(245, 245, 245, 0.5);
+}
+
+@media screen and (max-width: 540px) {
+  .clients {
+    margin-top: 50%;
+  }
+
+  .col-4 {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .heading .title {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 30px;
+    line-height: 35px;
+  }
 }

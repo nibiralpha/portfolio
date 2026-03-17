@@ -51,13 +51,13 @@ export default function ClientComponent() {
                   ></img>
                 </div>
                 <div className="client_naming">
-                  <div className="client_title">HUGO CHALVEZ</div>
-                  <div className="client_position">FOUNDER HUGGOS AGENCY</div>
+                  <div className="client_title">BRIAN ANDY</div>
+                  <div className="client_position">FOUNDER ANDDY</div>
                 </div>
               </div>
               <div className="client_description">
-                A reliable creative partner with a sharp eye for detail. The
-                process was smooth, and the results exceeded expectations.
+                They truly understand branding and digital strategy. Every
+                decision felt intentional and aligned with our goals.
               </div>
             </div>
           </div>
@@ -76,13 +76,13 @@ export default function ClientComponent() {
                   ></img>
                 </div>
                 <div className="client_naming">
-                  <div className="client_title">HUGO CHALVEZ</div>
-                  <div className="client_position">FOUNDER HUGGOS AGENCY</div>
+                  <div className="client_title">Daniel Ho</div>
+                  <div className="client_position">FOUNDER HOE FOUNDATION</div>
                 </div>
               </div>
               <div className="client_description">
-                A reliable creative partner with a sharp eye for detail. The
-                process was smooth, and the results exceeded expectations.
+                Professional, responsive, and creatively driven. Working with
+                this team felt effortless from start to finish.
               </div>
             </div>
           </div>
