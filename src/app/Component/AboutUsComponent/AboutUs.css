@@ -1,7 +1,11 @@
 .about_section {
-  margin: 0 70px;
+  /* margin: 0 70px; */
+  padding: 0 70px;
   /* position: sticky;
   top: 100%; */
+  height: 400vh;
+  position: relative;
+  overflow-x: clip;
 }
 
 .about_text {
@@ -32,7 +36,6 @@
   text-align: center;
   margin-bottom: 180px;
   will-change: transform;
-
 }
 
 .about_us .title {
@@ -92,7 +95,8 @@
 
 @media screen and (max-width: 360px) {
   .about_section {
-    margin: 0 20px;
+    margin: 0 0;
+    padding: 0 10px;
   }
 
   .scroll_container {
@@ -121,7 +125,8 @@
 
 @media screen and (max-width: 767px) {
   .about_section {
-    margin: 0 20px;
+    margin: 0 0;
+    padding: 0 10px;
   }
 
   .scroll_container {
@@ -174,4 +179,28 @@
   .about_images {
     top: 100px;
   }
+}
+
+/* ANIMATION */
+/* .about_section {
+  margin: 0 70px;
+  height: 400vh;
+  position: relative;
+} */
+
+.about_wrapper {
+  height: 100%;
+  position: relative;
+}
+
+.about_us {
+  position: sticky;
+  top: 0;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: #a8a8a8;
+  text-align: center;
+  will-change: transform;
 }
