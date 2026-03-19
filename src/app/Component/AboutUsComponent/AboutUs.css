@@ -204,3 +204,61 @@
   text-align: center;
   will-change: transform;
 }
+
+
+
+
+
+
+
+
+
+/* Container to stack the two text layers */
+.about_detail_wrapper {
+  display: grid;
+  grid-template-areas: "overlap";
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.about_detail {
+  grid-area: overlap; /* Stacks them on top of each other */
+  font-size: 58px;
+  font-weight: 600;
+  margin: 0 50px;
+  line-height: 62px;
+  text-align: center;
+  pointer-events: none; /* Mouse events handled by the wrapper/window */
+  white-space: pre-wrap; /* Crucial: ensures wrapping is identical for both layers */
+}
+
+.about_detail.base {
+  color: #a8a8a8; /* Your original gray color */
+}
+
+.about_detail.highlight {
+  color: red;
+  z-index: 2;
+  /* Mask creates the radial circle */
+  -webkit-mask-image: radial-gradient(
+    circle 120px at var(--x, -1000px) var(--y, -1000px), 
+    black 60%, 
+    transparent 100%
+  );
+  mask-image: radial-gradient(
+    circle 120px at var(--x, -1000px) var(--y, -1000px), 
+    black 60%, 
+    transparent 100%
+  );
+}
+
+/* Ensure mobile styles apply to both layers */
+@media screen and (max-width: 767px) {
+  .about_detail {
+    margin: 0;
+    font-size: 30px;
+    line-height: 30px;
+  }
+}
+
