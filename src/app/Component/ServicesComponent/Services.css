@@ -1,5 +1,5 @@
 .services {
-  margin: 0 25px;
+  margin: 12% 25px 0 25px;
 }
 
 .services .title {
@@ -79,6 +79,10 @@
 /* MOBLE */
 
 @media screen and (max-width: 540px) {
+  .services {
+    margin-top: 60%;
+  }
+
   .services .title {
     font-size: 30px;
     text-align: center;
@@ -103,6 +107,10 @@
 /* TAB */
 
 @media (min-width: 768px) and (max-width: 1024px) {
+  .services {
+    margin-top: 8%;
+  }
+
   .services .title {
     font-size: 50px;
   }
@@ -111,7 +119,7 @@
     padding-right: 0;
   }
 
-  .detail{
+  .detail {
     width: 80%;
   }
 
