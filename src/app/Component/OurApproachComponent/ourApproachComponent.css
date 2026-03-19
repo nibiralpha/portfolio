@@ -11,6 +11,10 @@
   margin-top: 35px;
 }
 
+.approach {
+  overflow-x: hidden;
+}
+
 /* MOBILE */
 @media screen and (max-width: 540px) {
   .section_head {
