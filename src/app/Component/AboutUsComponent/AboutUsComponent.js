@@ -29,7 +29,8 @@ export default function AboutUsComponent() {
 
       const move = progress * 150;
 
-      requestAnimationFrame(() => {
+      // THE FIX: Assign the requestAnimationFrame to your variable
+      requestRef = requestAnimationFrame(() => {
         if (leftRef.current)
           leftRef.current.style.transform = `translate3d(0, ${-move}px, 0)`;
         if (rightRef.current)
@@ -40,7 +41,7 @@ export default function AboutUsComponent() {
     window.addEventListener("scroll", handleScroll, { passive: true });
     return () => {
       window.removeEventListener("scroll", handleScroll);
-      cancelAnimationFrame(requestRef);
+      if (requestRef) cancelAnimationFrame(requestRef); // Only cancel if it exists
     };
   }, []);
 
