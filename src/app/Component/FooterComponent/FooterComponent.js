@@ -1,17 +1,46 @@
+"use client";
 import "./Footer.css";
 
+import gsap from "gsap";
+import { useGSAP } from "@gsap/react";
+
+import { ScrollTrigger } from "gsap/ScrollTrigger";
+import { useRef } from "react";
+
+gsap.registerPlugin(ScrollTrigger);
+
 export default function FooterComponent() {
+  const container = useRef();
+  
+  useGSAP(
+    () => {
+      gsap.from(".footer_image img", {
+        y: 100,
+        // opacity: 0,
+        // duration: 1,
+        // stagger: 0.2,
+        scrollTrigger: {
+          scrub: 1,
+          trigger: ".footer_head",
+          start: "top 90%",
+          toggleActions: "play none none reverse",
+        },
+      });
+    },
+    { scope: container },
+  );
+
   return (
-    <div className="footer">
-      <div>
+    <div className="footer" ref={container}>
+      <div className="footer_image_section">
         <div className="footer_head">READY TO BRING FOCUS TO YOUR BRAND?</div>
         <div className="footer_image">
-          <img src="/images/vr.webp" />
+          <img className="vr" src="/images/vr.webp" />
         </div>
       </div>
       <div className="row footer_start">
         <div className="col-4">
-          <div className="detail1">HELLO@8AM.DESIGN</div>
+          <div className="detail1">HELLO@9AM.DESIGN</div>
         </div>
 
         <div className="col-4">
