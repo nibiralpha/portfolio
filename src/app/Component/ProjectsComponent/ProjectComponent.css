@@ -1,8 +1,21 @@
+.projects_container{
+  overflow-x: hidden;
+  width: 100%;
+}
+
 .projects {
   margin-top: 20%;
   margin-bottom: 20%;
   padding: 0 4%;
   height: 100%;
+}
+
+.project_gallery {
+  overflow: hidden;
+}
+
+.project {
+  position: relative;
 }
 
 .project_section {
