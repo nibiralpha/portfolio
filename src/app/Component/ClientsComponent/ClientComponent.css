@@ -91,6 +91,10 @@
   background-color: rgba(245, 245, 245, 0.5);
 }
 
+.client_head_box:hover{
+  opacity: 1;
+}
+
 /* MOBILE */
 @media screen and (max-width: 540px) {
   .clients {
