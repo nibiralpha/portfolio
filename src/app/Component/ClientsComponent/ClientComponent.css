@@ -28,6 +28,8 @@
   border: 1px solid #262626;
   padding: 20px 25px;
   height: 300px;
+  backdrop-filter: blur(0px);
+  opacity: 0.8;
 }
 
 .box_header {

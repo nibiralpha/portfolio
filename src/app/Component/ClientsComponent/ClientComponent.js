@@ -12,77 +12,85 @@ export default function ClientComponent() {
       <div className="clients_comments">
         <div className="row">
           <div className="col-4">
-            <div className="head_bar"></div>
-            <div className="client_box">
-              <div className="box_header">
-                <div className="client_img">
-                  <img
-                    className="client_main_img"
-                    src="/images/client1.png"
-                  ></img>
-                  <img
-                    className="client_hover_img"
-                    src="/images/buzz.webp"
-                  ></img>
+            <div className="client_head_box">
+              <div className="head_bar"></div>
+              <div className="client_box">
+                <div className="box_header">
+                  <div className="client_img">
+                    <img
+                      className="client_main_img"
+                      src="/images/client1.png"
+                    ></img>
+                    <img
+                      className="client_hover_img"
+                      src="/images/buzz.webp"
+                    ></img>
+                  </div>
+                  <div className="client_naming">
+                    <div className="client_title">HUGO CHALVEZ</div>
+                    <div className="client_position">FOUNDER HUGGOS AGENCY</div>
+                  </div>
                 </div>
-                <div className="client_naming">
-                  <div className="client_title">HUGO CHALVEZ</div>
-                  <div className="client_position">FOUNDER HUGGOS AGENCY</div>
+                <div className="client_description">
+                  A reliable creative partner with a sharp eye for detail. The
+                  process was smooth, and the results exceeded expectations.
                 </div>
-              </div>
-              <div className="client_description">
-                A reliable creative partner with a sharp eye for detail. The
-                process was smooth, and the results exceeded expectations.
               </div>
             </div>
           </div>
           <div className="col-4">
-            <div className="head_bar"></div>
-            <div className="client_box">
-              <div className="box_header">
-                <div className="client_img">
-                  <img
-                    className="client_main_img"
-                    src="/images/client2.png"
-                  ></img>
-                  <img
-                    className="client_hover_img"
-                    src="/images/buzz.webp"
-                  ></img>
+            <div className="client_head_box">
+              <div className="head_bar"></div>
+              <div className="client_box">
+                <div className="box_header">
+                  <div className="client_img">
+                    <img
+                      className="client_main_img"
+                      src="/images/client2.png"
+                    ></img>
+                    <img
+                      className="client_hover_img"
+                      src="/images/buzz.webp"
+                    ></img>
+                  </div>
+                  <div className="client_naming">
+                    <div className="client_title">BRIAN ANDY</div>
+                    <div className="client_position">FOUNDER ANDDY</div>
+                  </div>
                 </div>
-                <div className="client_naming">
-                  <div className="client_title">BRIAN ANDY</div>
-                  <div className="client_position">FOUNDER ANDDY</div>
+                <div className="client_description">
+                  They truly understand branding and digital strategy. Every
+                  decision felt intentional and aligned with our goals.
                 </div>
-              </div>
-              <div className="client_description">
-                They truly understand branding and digital strategy. Every
-                decision felt intentional and aligned with our goals.
               </div>
             </div>
           </div>
           <div className="col-4">
-            <div className="head_bar"></div>
-            <div className="client_box">
-              <div className="box_header">
-                <div className="client_img">
-                  <img
-                    className="client_main_img"
-                    src="/images/client3.png"
-                  ></img>
-                  <img
-                    className="client_hover_img"
-                    src="/images/buzz.webp"
-                  ></img>
+            <div className="client_head_box">
+              <div className="head_bar"></div>
+              <div className="client_box">
+                <div className="box_header">
+                  <div className="client_img">
+                    <img
+                      className="client_main_img"
+                      src="/images/client3.png"
+                    ></img>
+                    <img
+                      className="client_hover_img"
+                      src="/images/buzz.webp"
+                    ></img>
+                  </div>
+                  <div className="client_naming">
+                    <div className="client_title">Daniel Ho</div>
+                    <div className="client_position">
+                      FOUNDER HOE FOUNDATION
+                    </div>
+                  </div>
                 </div>
-                <div className="client_naming">
-                  <div className="client_title">Daniel Ho</div>
-                  <div className="client_position">FOUNDER HOE FOUNDATION</div>
+                <div className="client_description">
+                  Professional, responsive, and creatively driven. Working with
+                  this team felt effortless from start to finish.
                 </div>
-              </div>
-              <div className="client_description">
-                Professional, responsive, and creatively driven. Working with
-                this team felt effortless from start to finish.
               </div>
             </div>
           </div>
