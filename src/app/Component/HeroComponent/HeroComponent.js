@@ -9,7 +9,7 @@ export default function HeroComponent() {
          <ImageSlider></ImageSlider>
         <div className="background_text">
           <h6>
-            NORA <i>AGENCY</i>
+            DORA <i>AGENCY</i>
           </h6>
         </div>
 
