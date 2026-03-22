@@ -44,6 +44,7 @@
 }
 
 .image_area {
+   position: relative;
   flex-grow: 1;
   overflow: hidden;
   display: flex;
@@ -55,6 +56,17 @@
   width: 100%;
   height: 100%;
   object-fit: cover;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.img-negative {
+  z-index: 1;
+}
+
+.img-default {
+  z-index: 2;
 }
 
 .service-head {
