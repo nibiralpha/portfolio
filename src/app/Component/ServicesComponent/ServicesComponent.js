@@ -25,7 +25,7 @@ export default function ServicesComponent() {
             ease: "none",
             scrollTrigger: {
               trigger: box,
-              start: "top 80%",
+              start: "top 50%",
               end: "top 20%",
               scrub: true,
             },
