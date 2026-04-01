@@ -31,3 +31,9 @@ body {
   padding-left: 15px;
   box-sizing: border-box; 
 }
+
+@media (min-width: 599px) and (max-width: 1024px) {
+  .row{
+    margin-right: 0;
+  }
+}
