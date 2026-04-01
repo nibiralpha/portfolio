@@ -7,6 +7,8 @@ This is a [Next.js](https://nextjs.org) project
 First, run the development server:
 
 ```bash
+git clone https://github.com/nibiralpha/portfolio.git
+npm install
 npm run dev
 ```
 
