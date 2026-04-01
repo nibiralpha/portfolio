@@ -44,7 +44,7 @@
 }
 
 .image_area {
-   position: relative;
+  position: relative;
   flex-grow: 1;
   overflow: hidden;
   display: flex;
@@ -138,4 +138,11 @@
   /* .boxes .col-4:last-child {
     padding-right: 15px;
   } */
+}
+
+/* DESKTOP */
+@media (min-width: 1300px) and (max-width: 1920px) {
+  .box {
+    height: 750px;
+  }
 }

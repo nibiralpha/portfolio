@@ -205,3 +205,10 @@
   text-align: center;
   will-change: transform;
 }
+
+/* DESKTOP */
+@media (min-width: 1300px) and (max-width: 1920px) {
+  .about_detail {
+    margin: 0 225px;
+  }
+}
