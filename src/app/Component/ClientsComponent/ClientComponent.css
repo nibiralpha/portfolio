@@ -23,7 +23,6 @@
 }
 
 .client_box {
-  /* background-color: rgba(100, 100, 100, 0.1); */
   background-color: rgb(0 0 0 / 50%);
   border: 1px solid #262626;
   padding: 20px 25px;
@@ -57,7 +56,6 @@
   left: 50%;
   transform: translate(-50%, -50%);
   width: 70%;
-  /* height: 100%; */
   object-fit: cover;
 }
 
@@ -76,8 +74,6 @@
 }
 
 .bg_img {
-  /* backdrop-filter: blur(30px); */
-  /* background: url("/images/clients_bg.webp") 0 127px no-repeat; */
   background: url("/images/clients_bg.webp") no-repeat 0 145px;
   background-repeat: no-repeat;
   background-size: cover;
