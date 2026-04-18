@@ -16,9 +16,6 @@ export default function FooterComponent() {
     () => {
       gsap.from(".footer_image img", {
         y: 100,
-        // opacity: 0,
-        // duration: 1,
-        // stagger: 0.2,
         scrollTrigger: {
           scrub: 1,
           trigger: ".footer_head",
