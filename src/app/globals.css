@@ -6,9 +6,7 @@
   padding: 0;
 }
 
-html,
-body {
-  /* overflow-x: hidden; */
+html {
 }
 
 body {
@@ -29,11 +27,11 @@ body {
   width: 33.33%;
   padding-right: 15px;
   padding-left: 15px;
-  box-sizing: border-box; 
+  box-sizing: border-box;
 }
 
 @media (min-width: 599px) and (max-width: 1024px) {
-  .row{
+  .row {
     margin-right: 0;
   }
 }
