@@ -28,12 +28,6 @@
 .boxes {
 }
 
-/* .box {
-  width: 100%;
-  background-color: #171717;
-  padding: 20px;
-} */
-
 .box {
   width: 100%;
   height: 450px;
@@ -134,10 +128,6 @@
   .detail {
     width: 80%;
   }
-
-  /* .boxes .col-4:last-child {
-    padding-right: 15px;
-  } */
 }
 
 /* DESKTOP */
